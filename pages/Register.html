@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!--LINK TO STYLESHEETS-->
+    <link rel="stylesheet" href="../CSS/defaults.css">
+    <link rel="stylesheet" href="../CSS/styling.css">
+
+    <!--INSERT 'LATO' PAGE DEFAULT FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--LINK TO FONTAWESOME KIT-->
+    <script src="https://kit.fontawesome.com/5f2ab24bd1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="mother">
+        <section class="sect-one">
+            <div class="one-top">
+                <div class="one-top-1">
+                    <h1>Styles</h1>
+                    <h1>Conference</h1>
+                </div>
+                <div class="one-top-2">
+                    <div>
+                        <p>August 24-26</p>
+                        <p>Chicago, IL</p>
+                    </div>
+                    <nav class="navbar">
+                        <ul type="none">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="./Speakers.html">Speakers</a></li>
+                            <li><a href="./Schedule.html">Schedule</a></li>
+                            <li><a href="./Venue.html">Venue</a></li>
+                            <li><a href="./Register.html">Register</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="pages-subheader">
+            <header>Register</header>
+            <p>Every year, we aim to have an unbelievable time, and this year we'd love it for you to join us. Conference passes only cost $99, one of the best values you'll find.</p>
+        </section>
+        <section class="register-sect-one">
+            <div>
+                <div>
+                    <header>Purchase a Conference Pass for only $99!</header>
+                    <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished, we’ll follow up and provide a receipt for your purchase. See you soon!</p>
+                </div>
+                <div>
+                    <header>Why Attend?</header>
+                    <ul>
+                        <li>Learn from over twenty world-class speakers in the WebDev world</li>
+                        <li>One full day of workshops and two full days of presentations</li>
+                        <li>Hosted at the Chicago Theatre, a historical landmark</li>
+                        <li>August in Chicago is like August nowhere else</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <form class="register-form"action="#" method="post" target="_self">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Full name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Email address" required>
+                    </div>
+                    <div>
+                        <label for="passes">Number of Passes</label>
+                        <select name="passes" id="passes" required>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="comments">Comments</label>
+                        <textarea name="comments" id="comments" placeholder="Write here" cols="30" rows="10" style="font-family: 'Lato', sans-serif;" maxlength="1000"></textarea>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; Styles Conference</p>
+        <nav class="navbar">
+            <ul type="none">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./Speakers.html">Speakers</a></li>
+                <li><a href="./Schedule.html">Schedule</a></li>
+                <li><a href="./Venue.html">Venue</a></li>
+                <li><a href="./Register.html">Register</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

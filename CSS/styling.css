@@ -229,10 +229,6 @@
 /*END STYLING FOR Speakers.html */
 
 /* BEGIN STYLING FOR Schedule.html */
-.schedule-sect-one {
-
-}
-
 .schedule-table {
     margin-bottom: 20px;
 }
@@ -285,10 +281,6 @@
 
 .schedule-table td a p {
     color: black;
-}
-
-.table-header {
-
 }
 /* END STYLING FOR Schedule.html */
 
@@ -371,6 +363,15 @@
 
     .register-form input, .register-form select, .register-form textarea {
         padding: 5px;
+    }
+
+    button {
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+    }
+
+    button:hover {
+        cursor: pointer;
     }
 /* END STYLING FOR Register.html */
 
